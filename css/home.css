@@ -1,0 +1,942 @@
+.banner{
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+.banner .max-width{
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    background-image: url('../images/bg9.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 2px 5px 8px 5px gray; 
+}
+.banner-content{
+    width: 80%;
+    margin: auto;
+}
+.banner-content h1{
+    font-family: var(--second-font);
+    font-size: 60px;
+    margin-top: 120px;
+    padding-top: 120px;
+    color: goldenrod;
+}
+.banner-content p{
+    width: 40%;
+    text-align: justify;
+    font-family: var(--third-font);
+    font-size: 18px;
+    padding-bottom: 27px;
+}
+.view-video{
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: goldenrod;
+    background-color: var(--second-color);
+    font-family: var(--second-font);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px gray;
+    transition: all 0.4s ease-in-out;
+}
+.view-video:hover{
+    background: transparent;
+    border: 1px solid var(--second-color);
+    color: var(--second-color);
+}
+.learn-more{
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: goldenrod;
+    font-family: var(--second-font);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px gray;
+    transition: all 0.4s ease-in-out;
+}
+.learn-more:hover{
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    background: transparent;
+}
+.about{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 0px;
+}
+.about .max-width{
+    width: 80%;
+}
+.about .left{
+    width: 100%;
+}
+.about .left .img{
+    text-align: right;
+}
+.about .left .img img{
+    border-radius: 10px;
+    width: 300px;
+}
+.about .right{
+    width: 100%;
+}
+.about .right h2{
+    text-align: left;
+    font-family: var(--second-font);
+    font-size: 50px;
+    font-weight: 700;
+    color: goldenrod;
+}
+.about .right p{
+    margin-bottom: 20px;
+    font-family: var(--first-font);
+    font-size: 16px;
+    text-align: justify;
+}
+.about .right a{
+    float: left;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--second-color);
+    font-family: var(--second-font);
+    border: 1px solid var(--third-color);
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px var(--third-color);
+}
+.about .right a:hover{
+    background: transparent;
+    color: var(--second-color);
+}
+.product{
+    margin-bottom: 30px;
+}
+.product .max-width{
+    width: 65%;
+    margin: auto;
+}
+
+.product h3{
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 50px;
+    color: goldenrod;
+    padding: 20px;
+}
+.home-product{
+    display: flex;
+    column-count: 2;
+}
+.product .product-left{
+    display: flex;
+    padding: 10px;
+    flex: 20%;
+    z-index: 0;
+}
+.product .product-right{
+    padding: 10px;
+    flex: 80%;
+}
+.product .product-left .categories{
+    position: relative;
+
+}
+.product .product-left .categories a{
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+    padding: 10px 18px;
+    border: 2px solid var(--first-color);
+    border-radius: 8px;
+    box-shadow: 5px 5px 2px gray;
+    transition: all 0.3s ease-in-out;
+}
+.categories a:hover{
+    background-color: var(--second-color);
+    color: white;
+}
+.grid{
+    margin: 0 auto;
+    column-count: 3;
+    column-gap: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.grid .grid-item{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 2px solid var(--second-color);
+    border-radius: 8px;
+    transition: transform 0.2s; 
+}
+.grid .grid-item .card{
+    padding: 10px;
+}
+.grid .grid-item:hover{
+    transform: scale(1.05);
+}
+.grid .grid-item h5{
+    font-family: var(--third-font);
+    padding:5px 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+.grid .grid-item h5 small{
+    font-size: 12px;
+    color: green;
+}
+.grid .grid-item span{
+    padding:5px 20px;
+    color: red;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+.grid .grid-item p{
+    padding:5px 20px;
+    font-family: var(--third-font);
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+}
+.grid-item img{ 
+    position: relative;
+    width: 100%;
+    padding:5px 10px; 
+}
+.add-to-cart-btn{
+    color: goldenrod;
+    margin: 10px;
+    float: right;
+    font-size: 16px;
+    padding: 7px 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: var(--second-color);
+    transition: all 0.4s ease-in-out;
+}
+.add-to-cart-btn:hover{
+    background: transparent;
+    color: var(--second-color);
+    border: 1px solid goldenrod;
+}
+.loadMore{
+    margin: 10px;
+    float: right;
+    font-size: 16px;
+}
+.loadMore:hover{
+    color: goldenrod;
+}
+.service .container{
+    margin:30px auto;
+    width: 100%;
+}
+.service .max-width{
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+.service .max-width h2{
+    font-size: 50px;
+    font-family: var(--second-font);
+    color: goldenrod;
+}
+.service-card{
+    margin-top: 20px;
+    column-count: 3;
+}
+.service-card .card{
+    text-align: center;
+    margin: auto;
+    width: 230px;
+    height: 230px;
+    background: var(--second-color);
+    border: 1px solid var(--third-color);
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.service-card .card:hover{
+    background-color: var(--third-color);
+    transform: rotate(360deg);
+}
+.service-card .card:hover h6{
+    color: black;
+}
+.service-card .card i{
+    margin: auto;
+    margin-top: 30%;
+    font-size: 60px;
+}
+.service-card .card h6{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+.service-card .card:nth-child(1){
+    color: red;
+}
+.service-card .card:nth-child(2){
+    color: green;
+}
+.service-card .card:nth-child(3){
+    color: goldenrod;
+}
+.testi{
+    display: inline-block;
+    margin: 20px auto;
+    width: 100%;
+    background-color: rgba(0,212,255,0.6);
+}
+.testi .max-width{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    height: 300px;
+}
+.testi h2{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: var(--second-font);
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+.testi p{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: var(--first-font);
+}
+.testi p span{
+    color: var(--second-color);
+    font-family: var(--first-font);
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.contact{
+    display: inline-block;
+    margin: 20px auto;
+    width: 100%;
+}
+.contact h2{
+    font-family: var(--second-font);
+    font-size: 50px;
+    text-align: center;
+    color: goldenrod;
+}
+.contact .max-width{
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    column-count: 2;
+}
+.contact .max-width .left{
+    font-family: var(--third-font);
+    margin: auto;
+    display: inline-block;
+}
+.contact .max-width .left .msg-form input,
+.contact .max-width .left .msg-form textarea{
+    font-family: var(--third-font);
+    width: 80%;
+    margin: 18px auto;
+    height: 40px;
+    padding: 20px;
+    border: 1px solid var(--second-color);
+    border-radius: 10px;
+}
+.contact .max-width .left .msg-form textarea{
+    height: 100px;
+}
+.contact button{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: var(--third-font);
+    margin:auto 16px;
+    padding: 6px 18px;
+    color: goldenrod;
+    border: 1px solid black;
+    background-color: var(--second-color);
+    border-radius: 10px;
+}
+.contact button:hover{
+    background: transparent;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+.contact-item{
+    font-family: var(--third-font);
+    padding: 18px;
+    margin-left: 100px;
+}
+.contact-item i{
+    color: goldenrod;
+    font-size: 22px;
+}
+.contact-item h5{
+    font-size: 20px;
+}
+.contact-item p{
+    font-size: 16px;
+}
+
+@media  screen and (max-width:1100px) {
+    .banner .max-width{
+        width: 100%;
+        height: 80vh;
+        display: inline-block;
+        background-image: url('../images/bg9.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        box-shadow: 2px 5px 8px 5px gray;   
+    }
+    .banner-content h1{
+        font-size: 50px;
+        margin-top: 100px;
+        padding-top: 120px;
+        color: var(--second-color);
+    }
+    .about .right{
+        text-align: center;
+    }
+    .about .left{
+        text-align: center;
+    }
+    .product .max-width{
+        width: 75%;
+        margin: auto;
+    }
+    .grid{
+        display: block;
+        column-count: 2;
+        text-align: center;
+        margin: auto;
+        column-gap: 0px;
+    }
+    .grid .grid-item{
+        width: 85%;
+        margin: 20px 10px;
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 20px;
+        border: 2px solid var(--second-color);
+        border-radius: 8px;
+        transition: transform 0.2s; 
+
+    }
+    .service-card .card{
+        text-align: center;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        transition: transform 0.3s;
+    }
+    .service-card .card i{
+        font-size: 40px;
+    }
+    .service-card .card h6{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:910px){
+    .banner-content h1{
+        color: rgb(94, 185, 245);
+    }
+    .banner-content p{
+        font-size: 16px;
+    }
+    .view-video{
+        color: black;
+        background-color: rgb(94, 185, 245);
+    }
+    .about{
+        margin-top: 0px;
+        display: flex;
+        column-count: 1;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .max-width{
+        margin: 10% auto;
+        padding-top: 26px;
+    }
+    .about .left{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .left .img{
+        text-align: center;
+    }
+    .about .right{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .product .grid{
+        column-count: 2;
+    }
+    .grid .grid-item span{
+        padding:5px 20px;
+        font-size: 14px;
+        color: red;
+        text-align: left;
+        font-weight: 700;
+    }
+    .grid .grid-item p{
+        padding:5px 20px;
+        font-family: var(--third-font);
+        text-align: justify;
+        font-size: 14px;
+    }
+    .add-to-cart-btn{
+        color: goldenrod;
+        margin: 10px;
+        font-size: 14px;
+        padding: 5px 14px;
+    }
+    .service .max-width{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    .testi .max-width{
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        height: 300px;
+    }
+    .testi h2{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .testi p{
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 40px;
+        font-family: var(--first-font);
+    }
+    .testi p span{
+        color: var(--second-color);
+        font-family: var(--first-font);
+        font-size: 100px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:769px){
+    .banner-content a{
+        margin-right: 10px;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .about .right h2{
+        padding: 20px 0;
+        text-align: left;
+        font-size: 50px;
+        color: var(--second-color);
+    }
+    .about .right a{
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    .product h3{
+        font-size: 40px;
+    }
+    .product .grid{
+        text-align: center;
+        column-count: 1;
+    }
+    .grid .grid-item{
+        margin:20px auto;
+        width: 90%;
+    }
+    .grid .grid-item span{
+        float: left;
+    }
+    .grid .grid-item h5{
+        padding:5px 20px;
+        font-family: var(--third-font);
+        text-align: justify;
+        font-size: 14px;
+    }
+    .add-to-cart-btn{
+        color: goldenrod;
+        margin: 10px;
+        font-size: 12px;
+        padding: 4px 12px;
+    }
+    .service .max-width h2{
+        font-size: 40px;
+    }
+    .service-card .card{
+        text-align: center;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+        transition: transform 0.3s;
+    }
+    .service-card .card i{
+        font-size: 30px;
+    }
+    .service-card .card h6{
+        font-size: 16px;
+    }
+    .contact h2{
+        font-size: 40px;
+    }
+    .contact .max-width{
+        column-count: 1;
+    }
+    .contact .max-width .right{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .contact .max-width .right .contact-item{
+        text-align: center;
+        margin-left: 0;
+        margin: auto;
+    }
+    .contact-item i{
+        color: var(--second-color);
+        font-size: 20px;
+    }
+    .contact-item h5{
+        font-size: 18px;
+    }
+    .contact-item p{
+        font-size: 14px;
+    }
+    .contact .max-width .left{
+        text-align: center;
+        margin: auto;
+    }
+    .contact button{
+        margin-right: 10%;
+        float: right;
+    }
+    .testi{
+        height: 400px;
+    }
+    .testi .max-width{
+        width: 60%;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .testi h2{
+        margin-top: 30px;
+        font-size: 35px;
+        font-family: var(--second-font);
+        color: goldenrod;
+        margin-bottom: 20px;
+    }
+    .testi p{
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 40px;
+        font-family: var(--first-font);
+    }
+    .testi p span{
+        color: var(--second-color);
+        font-family: var(--first-font);
+        font-size: 90px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 600px){
+    .product h3{
+        font-size: 35px;
+    }
+    .product .home-product{
+        display: block;
+        column-count: 1;
+        text-align: center;
+        justify-content: center;
+    }
+    .product .product-left{
+        text-align: center;
+        margin-top: 10px auto;
+        justify-content: center;
+    }
+    .product .product-left .categories{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        margin: auto;
+    } 
+
+    .product .product-left .categories a{
+        background-color: var(--second-color);
+        color: var(--third-color);
+        cursor: pointer;
+        margin: 10px;
+        font-size: 14px;
+        padding: 5px 10px;
+        border: 2px solid var(--first-color);
+        border-radius: 8px;
+        box-shadow: 5px 5px 2px gray;
+        transition: all 0.3s ease-in-out;
+        z-index: 0;
+    }
+    .product .product-left .categories a:hover{
+        background: transparent;
+        color: var(--first-color);
+    }
+    .product .product-right{
+        margin-top: 40px;
+        z-index: -1;
+    }
+    .grid{
+        column-count: 3;
+        transition: all 0.3s ease-in-out;
+    }
+    .grid .grid-item{
+        width: 90%;
+        display: inline-block;
+        text-align: center;
+        margin: 10px 20px;
+        border: 2px solid var(--second-color);
+        border-radius: 8px;
+        transition: transform 0.2s; 
+    }
+    .grid .grid-item .card{
+        padding: 10px;
+    }
+    .grid .grid-item:hover{
+        transform: scale(1.05);
+    }
+    .grid-item img{ 
+        z-index: -1;
+        width: 100%;
+        padding:5px 10px; 
+    }
+    .add-to-cart-btn{
+        margin: 10px;
+        float: right;
+        font-size: 14px;
+        padding: 5px 14px;
+        border: 2px solid var(--second-color);
+        border-radius: 8px;
+        background-color: var(--second-color);
+        color: var(--third-color);
+    }  
+    .contact h2{
+        font-size: 35px;
+    }
+    
+
+}
+@media screen and (max-width:415px){
+    .banner .max-width{
+        height: 65vh;
+        display: inline-block;
+        background-image: none;
+        background-color: rgb(94, 185, 245);
+        box-shadow: 2px 5px 8px 5px gray; 
+    }
+    .banner-content h1{
+        margin-top: 40px;
+        padding-top: 100px;
+        font-size: 40px;
+        color: var(--second-color);
+    }
+    .banner-content p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .view-video{
+        color: white;
+        background-color: var(--second-color);
+    }
+    .about .right h2{
+        padding: 20px 0;
+        text-align: left;
+        font-size: 30px;
+        color: var(--second-color);
+    }
+    .about .right p{
+        font-size: 14px;
+    }
+    .about .right a{
+        text-align: center;
+        float: left;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    .product h3{
+        font-size: 30px;
+    }
+    .product .grid{
+        text-align:center;
+        column-count: 1;
+    }
+    .grid .grid-item{
+        margin:20px auto;
+        width: 80%;
+    }
+    .grid-item img{ 
+        width: 100%;
+        padding:5px 10px; 
+    }
+    .grid .grid-item span{
+        color: red;
+        float: left;
+    }
+    .service-card{
+        margin-top: 20px;
+        column-count: 1;
+    }
+    .service-card .card{
+        text-align: center;
+        margin:10px auto;
+        width: 200px;
+        height: 200px;
+    }
+    .service-card .card i{
+        margin: auto;
+        margin-top: 30%;
+        font-size: 50px;
+    }
+    .service-card .card h6{
+        padding: 20px;
+        font-size: 18px;
+        color: white;
+    }
+    .contact h2{
+        font-size: 30px;
+    }
+    .contact .max-width{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+    .contact .max-width .right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .max-width .left .msg-form input,
+    .contact .max-width .left .msg-form textarea{
+        font-family: var(--third-font);
+        width: 100%;
+        height: 40px;
+        border: 1px solid var(--second-color);
+        border-radius: 10px;
+    }
+    .contact .max-width .left .msg-form textarea{
+        height: 100px;
+    }
+    .contact .max-width .right .contact-item{
+        text-align: left;
+        margin-left: 0;
+    }
+    .testi{
+        height: 400px;
+    }
+    .testi .max-width{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .testi h2{
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: var(--second-font);
+        color: goldenrod;
+        margin-bottom: 20px;
+    }
+    .testi p{
+        text-align: justify;
+        padding-top: 20px;
+        font-size: 14px;
+        line-height: 40px;
+        font-family: var(--first-font);
+    }
+    .testi p span{
+        color: var(--second-color);
+        font-family: var(--first-font);
+        font-size: 80px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:376px){
+    .about .left{
+        text-align: center;
+    }
+    .about .left .img{
+        width: 100%;
+        text-align: center;
+    }
+    .about .left .img img{
+        width: 90%;
+    }
+    .about .right h2{
+        padding: 20px 0;
+        text-align: left;
+        font-size: 30px;
+        color: var(--second-color);
+    }
+    .about .right p{
+        font-size: 13px;
+    }
+    .about .right a{
+        float: left;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    .service-card .card{
+        text-align: center;
+        margin:10px auto;
+        width: 170px;
+        height: 170px;
+    }
+    .service-card .card i{
+        margin: auto;
+        margin-top: 30%;
+        font-size: 40px;
+    }
+    .service-card .card h6{
+        padding: 20px;
+        font-size: 16px;
+        color: white;
+    }
+    .contact h2{
+        font-size: 30px;
+    }
+    .contact .max-width{
+        margin: auto;
+        width: 90%;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/commonstyle.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <section class="nav" id="nav">
+      <div class="container">
+        <!-- navbar -->
+        <nav class="navbar">
+          <div class="max-width">
+            <div class="topnav" id="myTopnav">
+              <div class="logo">
+                <a href="">
+                  <img src="./images/yuki2.png" alt="">
+                  Yu<span>Ki</span>
+                </a>
+              </div>
+              <div class="menu">
+                <a class="search-container">
+                  <form action="">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </a>
+
+                <a href="home.html">
+                  <i class="fas fa-home"></i>
+                </a>
+                <a href="about.html">
+                  <i class="fas fa-info-circle"></i>
+                </a>
+                <a href="product.html">
+                  <i class="fas fa-box-open"></i>
+                </a>
+                <!-- <a href="#service">
+                  <i class="fas fa-cogs"></i>
+                </a>
+                <a href="#contact">
+                  <i class="fas fa-address-card"></i>
+                </a> -->
+                <a href="login.html" onclick="logout()">
+                  <i class="fas fa-sign-out-alt"></i>
+                </a>
+             
+              
+            </div>
+            
+              <a href="javascript:void(0)" class="icon" onclick="classToggle()">
+                <i class="fas fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- admin dashboard -->
+    <section class="dashboard" id="dashboard">
+        <div class="max-width">
+          <h3>User Info</h3>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Email</th>
+                  <th>Password</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td id="email"></td>
+                  <td id="password"></td>
+                </tr>
+                
+              </tbody>
+            </table>          
+        </div>
+    </section>
+
+    <script src="js/home.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700&family=Handlee&family=Patrick+Hand&display=swap');
+
+:root{
+    --first-color : rgba(2,0,36,1);
+    --second-color: rgba(6,6,100,1);
+    --third-color : rgba(0,212,255,1);
+}
+
+:root{
+    --first-font: 'Baloo Tammudu 2', cursive;
+    --second-font: 'Handlee', cursive;
+    --third-font: 'Patrick Hand', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}

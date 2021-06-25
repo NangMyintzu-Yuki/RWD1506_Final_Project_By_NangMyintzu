@@ -1,0 +1,234 @@
+.about{
+    display: inline-block;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--first-font);
+}
+.about .max-width{
+    margin: auto;
+    width: 80%;
+}
+.about .max-width .row{
+    margin: auto;
+    margin-top: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+.about .about-crochet{
+    width: 100%;
+}
+.about h2{
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--second-color);
+}
+.about h3{
+    margin: 20px auto;
+    text-align: center;
+    font-family: var(--second-font);
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--second-color);
+}
+.about .about-crochet p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: var(--first-font);
+    font-size: 16px;
+    text-align: justify;
+}
+.about .about-image{
+    width: 100%;
+}
+.about .about-image .img{
+    text-align: center;
+}
+.about .about-image .img img{
+    width: 300px;
+    border-radius: 10px;
+}
+.basic-lists .list{
+    column-count: 2;
+}
+.basic-lists .list .left{
+    display: block;
+    text-align: right;
+}
+.basic-lists .list .img{
+    margin: 20px auto;
+}
+.basic-lists .list .img img{
+    width: 350px;
+    border-radius: 10px;
+}
+.basic-lists .list .right{
+    display: block;
+    text-align: left;
+}
+.basic-lists .list .right h5{
+    font-family: var(--third-font);
+    font-size: 30px;
+    font-weight: 700;
+    color: goldenrod;
+}
+.basic-lists .list .right p{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: var(--first-font);
+    text-align: justify;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:909px){
+    .about h2{
+        text-align: center;
+        font-family: var(--second-font);
+        font-size: 50px;
+        font-weight: 700;
+        color: var(--second-color);
+    }
+    .about h3{
+        font-size: 35px;
+    }
+    .basic-lists .list .img img{
+        width: 260px;
+        height: 240px;
+    }
+    .basic-lists .list .right h5{
+        font-family: var(--third-font);
+        font-size: 26px;
+        color: goldenrod;
+    }
+    .basic-lists .list .right p{
+        width: 100%;
+        font-size: 14px;
+        font-family: var(--first-font);
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:769px){
+    .about h2{
+        text-align: center;
+        font-family: var(--second-font);
+        font-size: 50px;
+        font-weight: 700;
+        color: var(--second-color);
+    }
+    .about h3{
+        font-size: 35px;
+    }
+    .basic-lists .list .img img{
+        width: 260px;
+        height: 240px;
+    }
+    .basic-lists .list .right h5{
+        font-family: var(--third-font);
+        font-size: 26px;
+        color: goldenrod;
+    }
+    .basic-lists .list .right p{
+        width: 100%;
+        font-size: 14px;
+        font-family: var(--first-font);
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:415px){
+    .about{
+        display: inline-block;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .about .max-width{
+        margin: auto;
+        width: 90%;
+    }
+    .about .max-width .row{
+        margin: auto;
+        margin-top: 20px;
+        column-count: 1;
+    }
+    .about .about-crochet{
+        width: 100%;
+    }
+    .about h2{
+        font-size: 50px;
+        font-weight: 700;
+        color: var(--second-color);
+    }
+    .about h3{
+        margin: 20px auto;
+        font-size: 30px;
+    }
+    .about .about-crochet p{
+        width: 80%;
+        font-family: var(--first-font);
+        font-size: 16px;
+        text-align: justify;
+    }
+    .about .about-image{
+        width: 100%;
+    }
+    .about .about-image .img{
+        text-align: center;
+    }
+    .about .about-image .img img{
+        width: 300px;
+        border-radius: 10px;
+    }
+    .basic-lists .list{
+        column-count: 1;
+    }
+    .basic-lists .list .left{
+        display: block;
+        text-align: right;
+    }
+    .basic-lists .list .img{
+        margin: 10px auto;
+    }
+    .basic-lists .list .img img{
+        width: 350px;
+        border-radius: 10px;
+    }
+    .basic-lists .list .right{
+        display: block;
+        text-align: left;
+    }
+    .basic-lists .list .right h5{
+        font-family: var(--third-font);
+        font-size: 30px;
+        font-weight: 700;
+        color: goldenrod;
+        padding-bottom: 0;
+    }
+    .basic-lists .list .right p{
+        width: 100%;
+        font-family: var(--first-font);
+        padding:5px 10px;
+        font-size: 14px;
+        line-height: 30px;
+
+    }
+    .about h2{
+        font-size: 40px;
+    }
+    
+}
+
+@media only screen and (max-width:375px){
+    .basic-lists .list .img img{
+        width: 250px;
+        height: 240px;
+    } 
+}

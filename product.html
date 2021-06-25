@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Products</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/commonstyle.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/product.css" />
+  </head>
+  <body>
+    <!-- home -->
+    <section class="main" id="main">
+      <div class="container">
+        <!-- navbar -->
+        <nav class="navbar">
+          <div class="max-width">
+            <div class="topnav" id="myTopnav">
+              <div class="logo">
+                <a href="">
+                  <img src="./images/yuki2.png" alt="">
+                  Yu<span>Ki</span>
+                </a>
+              </div>
+              <div class="menu">
+                <a class="search-container">
+                  <form action="">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </a>
+
+                <a href="home.html">
+                  <i class="fas fa-home"></i>
+                </a>
+                <a href="about.html">
+                  <i class="fas fa-info-circle"></i>
+                </a>
+                <a href="product.html">
+                  <i class="fas fa-box-open"></i>
+                </a>
+                <!-- <a href="#service">
+                  <i class="fas fa-cogs"></i>
+                </a>
+                <a href="#contact">
+                  <i class="fas fa-address-card"></i>
+                </a> -->
+                <a href="login.html" onclick="logout()">
+                  <i class="fas fa-sign-out-alt"></i>
+                </a>
+              </div>
+
+              <a href="javascript:void(0)" class="icon" onclick="classToggle()">
+                <i class="fas fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- home -->
+    <section class="product" id="product">
+      <div class="container">
+        <div class="max-width">
+          <div class="flex-container">
+            <div class="flex-item-left" class="sticky">
+              <div class="categories">
+                <a href="" class="all">All</a>
+                <a href="" class="bag">Bag</a>
+                <a href="" class="box">Box</a>
+                <a href="" class="doll">Doll</a>
+                <a href="" class="dress">Dress</a>
+                <a href="" class="croptop">Croptop</a>
+                <a href="" class="other">Other Assessories</a>
+              </div>
+            </div>
+
+            <div class="flex-item-right">
+              <div class="grid">
+                <div class="grid-item" id="other">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/accessory1.jpg" alt="" />
+                      </a>
+                      <h5>Accessory <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 10000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="croptop">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/c7.jpg" alt="" />
+                      </a>
+                      <h5>Croptop <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 18000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="dress">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/dress1.jpg" alt="" />
+                      </a>
+                      <h5>Dress <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 19000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="doll">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/d2.jpg" alt="" />
+                      </a>
+                      <h5>Doll <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 90000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="croptop">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/crop2.jpg" alt="" />
+                      </a>
+                      <h5>Croptop <small>(Out of stock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 16000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item " id="other">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/accessory20.jpg" alt="" />
+                      </a>
+                      <h5>Accessory <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 10000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="croptop">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/crop14.jpg" alt="" />
+                      </a>
+                      <h5>Croptop <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 14000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item " id="skirt">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/o7.jpg" alt="" />
+                      </a>
+                      <h5>Skirt <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 17000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item " id="box">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/c10.jpg" alt="" />
+                      </a>
+                      <h5>Box <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 10000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="bag">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/b10.jpg" alt="" />
+                      </a>
+                      <h5>Bag <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 18000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="other">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/accessory21.jpg" alt="" />
+                      </a>
+                      <h5>Accessory <small>(Out of stock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 8000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item " id="bag">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/b17.jpg" alt="" />
+                      </a>
+                      <h5>Bag <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 14000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="box">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/box8.png" alt="" />
+                      </a>
+                      <h5>Box <small>(Instock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 14000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="grid-item" id="box">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/b28.jpg" alt="" />
+                      </a>
+                      <h5>Box <small>(Out of stock)</small></h5>
+
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicin elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 9000MMK</span>
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <a href="" class="loadMore">Load More >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section  class="footer">
+      <footer>
+        <div class="max-width">
+          <div class="subscribe">
+            <h5>Subscribe</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <form action="">
+                  <div class="input-group">
+                    <input type="text" placeholder=" Enter Your Email" />
+                    <button class="sub-btn">Subscribe</button>
+                  </div>
+                </form>
+          </div>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100044376262182">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>  
+            <a href="https://www.google.com">
+              <i class="fab fa-google" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://t.me/YuKi178">
+              <i class="fab fa-telegram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+  
+        <div class="copyright">
+          <p>&copy; 2021. All Right Reserved.</p>
+        </div>
+      </footer>
+     </section>
+
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
+  </body>
+</html>

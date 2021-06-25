@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/commonstyle.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <section class="nav" id="nav">
+      <div class="container">
+        <!-- navbar -->
+        <nav class="navbar">
+          <div class="max-width">
+            <div class="topnav" id="myTopnav">
+              <div class="logo">
+                <a href="">
+                  <img src="./images/yuki2.png" alt="">
+                  Yu<span>Ki</span>
+                </a>
+              </div>
+              <div class="menu">
+                <a class="search-container">
+                  <form action="">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </a>
+
+                <a href="home.html">
+                  <i class="fas fa-home"></i>
+                </a>
+                <a href="about.html">
+                  <i class="fas fa-info-circle"></i>
+                </a>
+                <a href="product.html">
+                  <i class="fas fa-box-open"></i>
+                </a>
+                <a href="#service">
+                  <i class="fas fa-cogs"></i>
+                </a>
+                <a href="#contact">
+                  <i class="fas fa-address-card"></i>
+                </a>
+                <a href="login.html" onclick="logout()">
+                  <i class="fas fa-sign-out-alt"></i>
+                </a>
+            </div>
+            
+              <a href="javascript:void(0)" class="icon" onclick="classToggle()">
+                <i class="fas fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- banner -->
+    <section class="banner" id="banner">
+      <div class="container">
+        <div class="max-width">
+          <div class="banner-content">
+            <h1>Concentrate Your Creativity</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae placeat quaerat debitis repellat tempore recusandae
+              iure ullam possimus voluptatem voluptatum optio obcaecati adipisci
+              illo et laboriosam quos suscipit, magni alias?
+            </p>
+            <a href="https://youtu.be/GcOzdAzmtNM" class="view-video"
+              >View Videos</a
+            >
+            <a href="https://en.wikipedia.org/wiki/Crochet" class="learn-more"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="max-width">
+          <div class="left">
+            <div class="img">
+              <img src="./images/b28.jpg" alt="" />
+            </div>
+          </div>
+          <div class="right">
+            <h2>What is Crochet?</h2>
+            <p>
+              Crochet is a process of creating textiles by using a crochet hook
+              to interlock loops of yarn, thread, or strands of other materials.
+              The name is derived from the French term crochet, meaning 'small
+              hook'. Hooks can be made from a variety of materials, such as
+              metal, wood, bamboo, or plastic.
+            </p>
+            <a href="about.html">View More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="product">
+      <div class="container">
+        <div class="max-width">
+          <h3>Some Products</h3>
+          <div class="home-product">
+            <div class="product-left">
+              <div class="categories">
+                <a href="" class="all">All</a>
+                <a href="" class="bag">Bag</a>
+                <a href="" class="box">Box</a>
+                <a href="" class="doll">Doll</a>
+                <a href="" class="dress">Dress</a>
+                <a href="" class="skirt">Skirt</a>
+                <a href="" class="croptop">Croptop</a>
+                <a href="" class="other">Other Assessories</a>
+              </div>
+            </div>
+            <div class="product-right">
+              <div class="grid">
+                <div class="grid-item">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/b20.jpg" alt="" />
+                      </a>
+                      <h5>1. Bag <small>(Instock)</small></h5>
+  
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 16000MMK</span>
+  
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="grid-item">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/accessory17.jpg" alt="" />
+                      </a>
+                      <h5>2. Accessory <small>(Instock)</small></h5>
+  
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 8000MMK</span>
+  
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="grid-item">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/crop14.jpg" alt="" />
+                      </a>
+                      <h5>3. Croptop <small>(Instock)</small></h5>
+  
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 13000MMK</span>
+  
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="grid-item">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/d8.jpg" alt="" />
+                      </a>
+                      <h5>4. Dolls <small>(Instock)</small></h5>
+  
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 10000MMK</span>
+  
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="grid-item">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/shoe1.jpg" alt="" />
+                      </a>
+                      <h5>5. Shoe <small>(Instock)</small></h5>
+  
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 6000MMK</span>
+  
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="grid-item">
+                  <div class="card">
+                    <div class="overflow-img">
+                      <a href="#">
+                        <img src="./images/box5.jpg" alt="" />
+                      </a>
+                      <h5>6. Tisue Box <small>(Out of stock)</small></h5>
+  
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Accusantium voluptatum maiores, incidunt porro aperiam
+                        dolor
+                      </p>
+                      <span>Price: 9000MMK</span>
+  
+                      <a href="" class="add-to-cart-btn">Add To Cart</a>
+                    </div>
+                  </div>
+                </div>
+  
+  
+                <a href="product.html" class="loadMore">Load More >></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service -->
+    <section class="service" id="service">
+      <div class="container">
+        <div class="max-width">
+          <h2>Our Awesome Services</h2>
+          <div class="service-card">
+            <div class="card">
+              <i class="far fa-grin-hearts"></i>
+              <h6>Best Quality</h6>
+            </div>
+
+            <div class="card">
+              <i class="fas fa-truck"></i>
+              <h6>Fast Delivery</h6>
+            </div>
+
+            <div class="card">
+              <i class="fas fa-dollar-sign"></i>
+              <h6>Low Cost</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testi -->
+    <section class="testi">
+      <div class="container">
+        <div class="max-width">
+          <h2>What People Say?</h2>
+          <p><span>&quot;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolor beatae dolorum rerum? Sit quibusdam, ducimus aut, recusandae alias eaque minima, explicabo atque consectetur omnis ratione et vitae sunt sequi.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact mb-5" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+          <div class="max-width">
+
+            <div class="right">
+              <div class="contact-item">
+                <div class="icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info">
+                  <h5>Address</h5>
+                  <p>Kachin State</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="icon">
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                  <h5>Email</h5>
+                  <p>meemee13318@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="icon">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="info">
+                  <h5>Phone</h5>
+                  <p>0912345678</p>
+                </div>
+              </div>
+
+            </div>
+            
+            
+            <div class="left">
+              <form class="msg-form">
+                <input type="name" placeholder="Enter Your Name"  id="name">
+                <input type="email" id="emial" placeholder="Enter Your Email">
+                <textarea name="message" rows="3" placeholder="Enter Message Here"></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+              </form>
+            </div>
+
+            
+          </div>
+      </div>
+  </section>
+
+    <!-- footer -->
+    <section  class="footer">
+      <footer>
+        <div class="max-width">
+          <div class="subscribe">
+            <h5>Subscribe</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                <form action="">
+                  <div class="input-group">
+                    <input type="text" placeholder=" Enter Your Email" />
+                    <button class="sub-btn">Subscribe</button>
+                  </div>
+                </form>
+          </div>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100044376262182">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>  
+            <a href="https://www.google.com">
+              <i class="fab fa-google" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://t.me/YuKi178">
+              <i class="fab fa-telegram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+  
+        <div class="copyright">
+          <p>&copy; 2021. All Right Reserved.</p>
+        </div>
+      </footer>
+     </section>
+
+    <script src="js/home.js"></script>
+    <script src="js/logout.js"></script>
+  </body>
+</html>

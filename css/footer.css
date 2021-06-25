@@ -1,0 +1,174 @@
+.footer{
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    padding:20px 0;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 10%, rgba(6,6,100,1) 60%, rgba(2,0,36,1) 100%);
+    font-family: var(--first-font);
+    z-index: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.footer .max-width{
+    margin: auto;
+    width: 86%;
+    display: flex;
+    column-count: 2;
+}
+.subscribe h5{
+    font-size: 24px;
+    color: red;
+    flex: 50%;
+}
+.subscribe p{
+    padding: 10px;
+    word-spacing: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+.subscribe,.social-icon{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .input-group input{
+    width: 40%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.sub-btn{
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.sub-btn:hover{
+    border: 1px solid red;
+    background: transparent;
+    color: red;
+}
+.social-icon{
+    display: flex;
+    padding: 30px;
+    margin: auto;
+}
+.social-icon a i{
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid var(--third-color);
+    border-radius: 50%;
+}
+.social-icon a:first-child i{
+    color: blue;
+}
+.social-icon a:first-child:hover i{
+    background: blue;
+    color: white;
+}
+.social-icon a:nth-child(2) i{
+    color: red;
+}
+.social-icon a:nth-child(2):hover i{
+    background: red;
+    color: white;
+}
+.social-icon a:nth-child(3) i{
+    color: green;
+}
+.social-icon a:nth-child(3):hover i{
+    background: green;
+    color: white;
+}
+.social-icon a:nth-child(4) i{
+    color: rgb(0, 195, 255);
+}
+.social-icon a:nth-child(4):hover i{
+    background: rgb(0, 195, 255);
+    color: white;
+}
+.social-icon a:last-child i{
+    color: violet;
+}
+.social-icon a:last-child:hover i{
+    background: violet;
+    color: white;
+}
+.copyright{
+    background: linear-gradient(90deg, rgba(0,212,255,1) 10%, rgba(6,6,100,1) 60%, rgba(2,0,36,1) 100%);
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.copyright p{
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 500;
+    color: var(--third-color);
+    letter-spacing: 10px;
+}
+.copyright p span strong{
+    color: yellow;
+} 
+
+/* responsive */
+
+@media only screen and (max-width: 900px) {
+    .subscribe p{
+        font-size: 12px;
+    }
+    .subscribe .input-group input{
+        width: 60%;
+        height: 33px;
+    }
+    .sub-btn{
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+    .social-icon{
+        display: flex;
+        padding: 30px;
+        margin: auto;
+    }
+
+}
+@media only screen and (max-width: 769px) {
+
+    
+    .footer .max-width{
+        display: block;
+        column-count: 1;
+    }
+    .subscribe p{
+        color: white;
+    }
+}
+@media only screen and (max-width: 415px) {
+    .social-icon{
+        padding: 20px;
+        margin: auto;
+    }
+    .social-icon i{
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid var(--third-color);
+        border-radius: 50%;
+    }
+    .copyright p{
+        font-size: 11px;
+        letter-spacing: 7px;
+    }
+}
